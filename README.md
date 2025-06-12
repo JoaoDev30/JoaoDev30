@@ -23,5 +23,5 @@ Fascinado por tecnologia, estou sempre explorando novos caminhos que me desafiam
 
 ## Onde me encontrar
 
-[![My Skills](https://skillicons.dev/icons?i=gmail,linkedin)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/jo%C3%A3o-miguel-00484431a/)
 
