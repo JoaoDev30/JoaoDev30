@@ -1,35 +1,17 @@
-![](https://komarev.com/ghpvc/?username=JoaoDev30&color=006bed)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=094BF7&background=FFFFFF00&width=435&lines=Hello+World!+I'm+Jo%C3%A3o+Miguel)](https://git.io/typing-svg)
 
 ## Sobre Mim
-
-- 🤔 Explorando novas tecnologias e desenvolvendo soluções de software.
-- 🎓 Estudando Análise e Desenvolvimento de Sistemas (3/5) na Anhanguera.
-- 🌱 No momento aprendendo mais sobre Java.
-
+Sou desenvolvedor backend com foco em Java e atualmente estou cursando Análise e Desenvolvimento de Software na Anhanguera.
+Fascinado por tecnologia, estou sempre explorando novos caminhos que me desafiam para estar em melhora constante.
 ## Minhas Skills
 
-**Aplicações e dados**
 
-![Java](https://img.shields.io/badge/-Java-333333?style=flat&logo=Java&logoColor=007396)
-![HTML5](https://img.shields.io/badge/-HTML5-333333?style=flat&logo=HTML5)
-![CSS](https://img.shields.io/badge/-CSS-333333?style=flat&logo=CSS3&logoColor=1572B6)
-![MySQL](https://img.shields.io/badge/-MySQL-333333?style=flat&logo=mysql)
-
-**Utilidades**
-
-![Postman](https://img.shields.io/badge/-Postman-333333?style=flat&logo=postman)
-
-**DevOps**
-
-![Git](https://img.shields.io/badge/-Git-333333?style=flat&logo=git)
-![GitHub](https://img.shields.io/badge/-GitHub-333333?style=flat&logo=github)
+[![My Skills](https://skillicons.dev/icons?i=html,css,java,python,git,github)](https://skillicons.dev)
 
 
 **Ferramentas de desenvolvimento**
 
-![Visual Studio Code](https://img.shields.io/badge/-Visual%20Studio%20Code-333333?style=flat&logo=visual-studio-code&logoColor=007ACC)
-![Trello](https://img.shields.io/badge/-Trello-333333?style=flat&logo=trello&logoColor=007ACC)
-
+[![My Skills](https://skillicons.dev/icons?i=vscode,idea)](https://skillicons.dev)
 
 
 
@@ -41,6 +23,5 @@
 
 ## Onde me encontrar
 
-[![Linkedin](https://img.shields.io/badge/-username-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/jo%C3%A3o-miguel-00484431a/)](https://www.linkedin.com/in/jo%C3%A3o-miguel-00484431a/)
-[![Gmail Badge](https://img.shields.io/badge/-seuemail@email.com-006bed?style=flat-square&logo=Gmail&logoColor=white&link=mailto:joaodev30@gmail.com)](mailto:joaodev30@gmail.com)
-[![GitHub](https://img.shields.io/github/followers/iuricode?label=follow&style=social)](https://github.com/JoaoDev30)
+[![My Skills](https://skillicons.dev/icons?i=gmail,linkedin)](https://skillicons.dev)
+
