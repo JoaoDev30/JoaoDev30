@@ -6,12 +6,18 @@ Fascinado por tecnologia, estou sempre explorando novos caminhos que me desafiam
 ## Minhas Skills
 
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,java,python,git,github)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=html,css,java,python,git,github,windows)](https://skillicons.dev)
 
 
-**Ferramentas de desenvolvimento**
+## Aprendendo no momento
 
-[![My Skills](https://skillicons.dev/icons?i=vscode,idea)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=aws,linux)](https://skillicons.dev)
+
+
+
+**Ferramentas de desenvolvimento** 
+
+[![My Skills](https://skillicons.dev/icons?i=idea,vscode)](https://skillicons.dev)
 
 
 
