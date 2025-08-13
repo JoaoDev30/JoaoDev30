@@ -11,13 +11,13 @@ Fascinado por tecnologia, estou sempre explorando novos caminhos que me desafiam
 
 ## Aprendendo no momento
 
-[![My Skills](https://skillicons.dev/icons?i=aws,linux)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=aws,linux,spring)](https://skillicons.dev)
 
 
 
 **Ferramentas de desenvolvimento** 
 
-[![My Skills](https://skillicons.dev/icons?i=idea,vscode)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=idea,vscode,postman)](https://skillicons.dev)
 
 
 
