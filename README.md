@@ -10,7 +10,7 @@ I am a backend developer focused on Java and currently in the 4th semester of my
 
 ## Learning in moment
 
-[![My Skills](https://skillicons.dev/icons?i=aws,linux)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=javascript,linux)](https://skillicons.dev)
 
 
 
@@ -23,7 +23,7 @@ I am a backend developer focused on Java and currently in the 4th semester of my
 <br/>
 
 <a href="https://github.com/JoaoDev30" title="Perfil do João">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JoaoDev30&theme=dracula&show_icons=true" />
+  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JoaoDev30&theme=gradianto_icons=true" />
 </a>
 
 ## where to find me
