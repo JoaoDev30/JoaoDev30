@@ -5,12 +5,12 @@ I am a backend developer focused on Java and currently in the 4th semester of my
 ## My Skills
 
 
-[![My Skills](https://skillicons.dev/icons?i=html,css,java,python,git,github,windows,spring)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,python,postgresql,mysql,git,github,html,css,windows,linux)](https://skillicons.dev)
 
 
 ## Learning in moment
 
-[![My Skills](https://skillicons.dev/icons?i=javascript,linux)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=javascript,aws)](https://skillicons.dev)
 
 
 
@@ -26,7 +26,28 @@ I am a backend developer focused on Java and currently in the 4th semester of my
   <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JoaoDev30&theme=gradianto_icons=true" />
 </a>
 
+
+
+
 ## where to find me
 
 [![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/jo%C3%A3o-miguel-00484431a/)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
