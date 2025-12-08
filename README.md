@@ -33,7 +33,7 @@ I am a backend developer focused on Java and currently in the 4th semester of my
 
 ## where to find me
 
-[![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/jo%C3%A3o-miguel-00484431a/)
+[![My Skills](https://skillicons.dev/icons?i=linkedin)](https://www.linkedin.com/in/jo%C3%A3o-miguel-da-silva-sousa-00484431a/)
 
 
 
