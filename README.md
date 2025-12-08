@@ -22,8 +22,10 @@ I am a backend developer focused on Java and currently in the 4th semester of my
 
 <br/>
 
+
 <a href="https://github.com/JoaoDev30" title="Perfil do João">
-  <img height="180em" src="https://github-readme-stats.vercel.app/api?username=JoaoDev30&theme=gradianto_icons=true" />
+  <img height="180em" 
+       src="https://github-readme-stats.vercel.app/api?username=JoaoDev30&show_icons=true&theme=gradianto" />
 </a>
 
 
