@@ -20,11 +20,7 @@ I am a backend developer focused on Java and currently in the 4th semester of my
 
 
 ##
-<br/>
-<a href="https://github.com/JoaoDev30" title="Profile of João">
-  <img height="180em"
-       src="https://github-readme-stats.vercel.app/api?username=JoaoDev30&show_icons=true&theme=radical" />
-</a>
+![JoaoDev30 GitHub stats](https://github-readme-stats.vercel.app/api?JoaoDev30=anuraghazra&show_icons=true&theme=radical)
 
 
 
