@@ -5,7 +5,7 @@ I am a backend developer focused on Java and currently in the 4th semester of my
 ## My Skills
 
 
-[![My Skills](https://skillicons.dev/icons?i=java,spring,python,postgresql,mysql,git,github,html,css,windows,linux)](https://skillicons.dev)
+[![My Skills](https://skillicons.dev/icons?i=java,spring,python,postgresql,mysql,git,github,html,css,windows,linux,figma)](https://skillicons.dev)
 
 
 ## Learning in moment
