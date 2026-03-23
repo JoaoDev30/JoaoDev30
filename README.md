@@ -21,8 +21,7 @@ I am a backend developer focused on Java and currently in the 4th semester of my
 [![My Skills](https://skillicons.dev/icons?i=idea,vscode,postman)](https://skillicons.dev)
 
 
-##
-![JoaoDev30 GitHub stats](https://github-readme-stats.vercel.app/api?JoaoDev30=anuraghazra&show_icons=true&theme=radical)
+
 
 
 
