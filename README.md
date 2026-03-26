@@ -1,5 +1,5 @@
 [![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&pause=1000&color=094BF7&background=FFFFFF00&width=435&lines=Hello+World!+I'm+Jo%C3%A3o+Miguel)](https://git.io/typing-svg)
-<img <img src="https://cdn.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433" width="1080" />
+ <img src="https://cdn.artstation.com/p/assets/images/images/021/720/920/original/pixel-jeff-mario.gif?1572709433" width="1080" />
 
 ![JoaoDev30 GitHub stats](https://github-readme-stats.vercel.app/api?username=JoaoDev30&show_icons=true&theme=radical)
 ## About Me
