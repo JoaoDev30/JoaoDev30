@@ -21,8 +21,8 @@ I am a backend developer focused on Java and currently in the 4th semester of my
 [![My Skills](https://skillicons.dev/icons?i=idea,vscode,postman)](https://skillicons.dev)
 
 
-<div align= center>
-<img width="498" height="498" alt="PinDown io_@moisellemonlove_1776703397" src="https://github.com/user-attachments/assets/9ca257a8-032d-4864-ba89-fb24a23cd4e9" />
+<div align= left>
+<img width="350" height="350" alt="PinDown io_@moisellemonlove_1776703397" src="https://github.com/user-attachments/assets/9ca257a8-032d-4864-ba89-fb24a23cd4e9" />
 <div/>
 
 
