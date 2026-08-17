@@ -5,6 +5,14 @@ on:
     # Every day at 05:23 UTC (02:23 BRT).
     - cron: "23 5 * * *"
   workflow_dispatch:
+  # So the cards exist from the first push instead of waiting for the cron.
+  # The commit this job makes is authored by GITHUB_TOKEN, and pushes made with
+  # that token do not trigger workflows — so this cannot recurse. paths-ignore
+  # is a second guard in case the job is ever switched to a PAT.
+  push:
+    branches: [main]
+    paths-ignore:
+      - "profile-summary-card-output/**"
 
 permissions:
   contents: write
