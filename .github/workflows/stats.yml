@@ -20,13 +20,14 @@ permissions:
 jobs:
   generate:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 15
     steps:
       - uses: actions/checkout@v4
 
-      # Two passes: only the two themes the README actually references, instead of
-      # the ~20 the action generates by default. The first pass holds its output on
-      # disk (AUTO_PUSH: false) so the second pass commits both themes at once.
+      # The README references two themes. Generating all ~20 would bloat the
+      # repository, but the action only takes one THEME per run and each run
+      # wipes the output directory — so each theme is generated in turn and
+      # parked outside the workspace, then committed together at the end.
       - name: Generate cards (dark)
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
@@ -36,20 +37,38 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: main
           UTC_OFFSET: -3
           THEME: github_dark
           ANIMATION: load
           AUTO_PUSH: false
 
-      - name: Generate cards (light) and push
+      - name: Park the dark cards
+        run: |
+          set -eux
+          ls -R profile-summary-card-output
+          mkdir -p /tmp/cards
+          cp -r profile-summary-card-output/github_dark /tmp/cards/github_dark
+
+      - name: Generate cards (light)
         uses: vn7n24fzkq/github-profile-summary-cards@release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         with:
           USERNAME: ${{ github.repository_owner }}
-          BRANCH_NAME: main
           UTC_OFFSET: -3
           THEME: github
           ANIMATION: load
-          AUTO_PUSH: true
+          AUTO_PUSH: false
+
+      - name: Commit both themes
+        run: |
+          set -eux
+          cp -r /tmp/cards/github_dark profile-summary-card-output/github_dark
+          test -f profile-summary-card-output/github_dark/3-stats.svg
+          test -f profile-summary-card-output/github/3-stats.svg
+          git config user.name  "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add profile-summary-card-output
+          git diff --staged --quiet && echo "cards unchanged" && exit 0
+          git commit -m "Generate profile summary cards"
+          git push
