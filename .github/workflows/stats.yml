@@ -71,4 +71,12 @@ jobs:
           git add profile-summary-card-output
           git diff --staged --quiet && echo "cards unchanged" && exit 0
           git commit -m "Generate profile summary cards"
-          git push
+          # The 3D calendar workflow triggers on the same push and also commits
+          # to main, so a plain push can lose the race. Rebase and retry.
+          for attempt in 1 2 3 4 5; do
+            git push && exit 0
+            echo "push rejected (attempt $attempt), rebasing"
+            git pull --rebase origin main
+            sleep 5
+          done
+          exit 1
