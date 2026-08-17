@@ -1,0 +1,35 @@
+name: Contribution snake
+
+on:
+  schedule:
+    # Every day at 04:17 UTC (01:17 BRT). Off the hour to avoid GitHub's peak-load queue.
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+  push:
+    branches: [main]
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      # svg-only is the lighter variant of Platane/snk: no gif encoding step.
+      - name: Generate snake from the contribution grid
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-light.svg?palette=github-light
+            dist/snake-dark.svg?palette=github-dark
+
+      # Published to the `output` branch so main stays clean of generated assets.
+      - name: Push to the output branch
+        uses: crazy-max/ghaction-github-pages@v5
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

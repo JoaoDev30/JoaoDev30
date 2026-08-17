@@ -1,0 +1,47 @@
+name: Profile stats
+
+on:
+  schedule:
+    # Every day at 05:23 UTC (02:23 BRT).
+    - cron: "23 5 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+
+      # Two passes: only the two themes the README actually references, instead of
+      # the ~20 the action generates by default. The first pass holds its output on
+      # disk (AUTO_PUSH: false) so the second pass commits both themes at once.
+      - name: Generate cards (dark)
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          # The built-in token is enough because every card reads public data.
+          # If a run ever fails on rate limits, create a PAT with public_repo
+          # scope, store it as SUMMARY_GITHUB_TOKEN and swap it in here.
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: -3
+          THEME: github_dark
+          ANIMATION: load
+          AUTO_PUSH: false
+
+      - name: Generate cards (light) and push
+        uses: vn7n24fzkq/github-profile-summary-cards@release
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        with:
+          USERNAME: ${{ github.repository_owner }}
+          BRANCH_NAME: main
+          UTC_OFFSET: -3
+          THEME: github
+          ANIMATION: load
+          AUTO_PUSH: true
