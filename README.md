@@ -48,9 +48,9 @@ PicPay's official backend challenge: transfers between users and merchants, with
 ## Contributions
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/JoaoDev30/JoaoDev30/output/snake-dark.svg">
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/JoaoDev30/JoaoDev30/output/snake-light.svg">
-  <img alt="Snake eating my contribution grid" src="https://raw.githubusercontent.com/JoaoDev30/JoaoDev30/output/snake-dark.svg" width="100%">
+  <source media="(prefers-color-scheme: dark)" srcset="profile-3d-contrib/profile-night-green.svg">
+  <source media="(prefers-color-scheme: light)" srcset="profile-3d-contrib/profile-green-animate.svg">
+  <img alt="Isometric 3D view of my contribution calendar" src="profile-3d-contrib/profile-night-green.svg" width="100%">
 </picture>
 
 <picture>
@@ -69,7 +69,7 @@ PicPay's official backend challenge: transfers between users and merchants, with
   <img alt="GitHub statistics" src="profile-summary-card-output/github_dark/3-stats.svg" height="200">
 </picture>
 
-<sub>The snake and the cards above are regenerated daily by GitHub Actions in this repository — no third-party server sits in the render path. See [`.github/workflows`](.github/workflows).</sub>
+<sub>The calendar and the cards above are regenerated daily by GitHub Actions in this repository — no third-party server sits in the render path. See [`.github/workflows`](.github/workflows).</sub>
 
 ## Elsewhere
 
